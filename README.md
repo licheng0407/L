@@ -1,6 +1,6 @@
 #include <stdio.h>
 //insert
-void insert(int arr[],int n) {//key是往前插入的数字 
+void insert(int arr[],int n) {  //key是往前插入的数字 
 	int key = arr[n];
 	int i = n;
 	while( arr[i-1] > key ) {
